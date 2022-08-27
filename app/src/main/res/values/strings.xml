@@ -10,4 +10,8 @@
     <string name="already_sign_in">Already Sign in?</string>
     <string name="registrarse">Registrarse</string>
     <string name="ya_te_registraste">¿Ya te registraste?</string>
+    <string name="carrito_de_compras">Carrito de Compras</string>
+    <string name="pagar_la_orden">Pagar la orden</string>
+    <string name="total">Total</string>
+    <string name="valor_a_pagar">Valor a Pagar</string>
 </resources>
