@@ -4,13 +4,13 @@ public class CarritoModelo {
     int image;
     String name;
     String price;
-    String rating;
 
-    public CarritoModelo(int image, String name, String price, String rating) {
+
+    public CarritoModelo(int image, String name, String price) {
         this.image = image;
         this.name = name;
         this.price = price;
-        this.rating = rating;
+
     }
 
     public int getImage() {
@@ -37,11 +37,5 @@ public class CarritoModelo {
         this.price = price;
     }
 
-    public String getRating() {
-        return rating;
-    }
 
-    public void setRating(String rating) {
-        this.rating = rating;
-    }
 }
