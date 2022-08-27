@@ -32,11 +32,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void Carrito(View view){
-        Intent i = new Intent(this, MainActivity6.class);
 
-
-    }
 
 
 }
