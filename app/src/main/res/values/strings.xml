@@ -7,4 +7,7 @@
     <string name="full_name1">Full Name</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="already_sign_in">Already Sign in?</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="ya_te_registraste">¿Ya te registraste?</string>
 </resources>
