@@ -2,4 +2,9 @@
     <string name="app_name">ProyectoPST</string>
     <string name="my_comparison_app">My Comparison App</string>
     <string name="el_mejor_lugar_para_comparar_tus_precios">El mejor lugar para comparar tus precios</string>
+    <string name="full_name">Full Name</string>
+    <string name="registro">Registro</string>
+    <string name="full_name1">Full Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
 </resources>
