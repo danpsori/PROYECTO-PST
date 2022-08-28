@@ -17,11 +17,9 @@ public class WelcomeActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_welcome);
-
-
     }
-    public void register(View view){
-        startActivity(new Intent(WelcomeActivity.this,RegistrationActivity.class));
-
+    public void inicio(View view) {
+        Intent i = new Intent(this, MainActivity.class );
+        startActivity(i);
     }
 }

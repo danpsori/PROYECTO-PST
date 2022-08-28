@@ -57,6 +57,7 @@
                 android:id="@+id/button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="registro1"
                 android:text="AGREGAR" />
 
             <ImageView
@@ -96,6 +97,7 @@
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="registro2"
                 android:text="AGREGAR" />
 
             <ImageView
@@ -135,6 +137,7 @@
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="registro3"
                 android:text="AGREGAR" />
 
             <ImageView
@@ -174,6 +177,7 @@
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="registro4"
                 android:text="AGREGAR" />
 
             <ImageView
@@ -213,7 +217,15 @@
                 android:id="@+id/button5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:onClick="registro5"
                 android:text="AGREGAR" />
+
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="Carrito"
+                android:text="CARRITO" />
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

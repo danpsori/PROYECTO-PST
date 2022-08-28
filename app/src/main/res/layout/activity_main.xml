@@ -73,6 +73,13 @@
                 android:onClick="Pizza"
                 android:text="pizza hut" />
 
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="comentario"
+                android:text="COMENTARIOS" />
+
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>

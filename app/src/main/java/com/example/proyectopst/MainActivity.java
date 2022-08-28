@@ -3,6 +3,7 @@ package com.example.proyectopst;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -16,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Burger(View view) {
-        Intent i = new Intent(this, MainActivity8.class );
+        Intent i = new Intent(this, MainActivity2.class );
         startActivity(i);
     }
     public void Donalds(View view) {
@@ -32,10 +33,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
-    public void onClick(View view){
-
-
+    public void comentario(View view){
+        Intent i = new Intent(this, MainActivity8.class );
+        startActivity(i);
     }
+    //prueba
+
+
 
 
 }
