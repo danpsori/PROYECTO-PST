@@ -31,4 +31,5 @@ public class MainActivity6 extends AppCompatActivity {
         textView = findViewById(R.id.textView28);
         textView.setText(message4);
     }
+
 }

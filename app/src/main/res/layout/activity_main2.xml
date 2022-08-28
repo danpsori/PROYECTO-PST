@@ -228,4 +228,5 @@
                 android:text="CARRITO" />
         </LinearLayout>
     </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
