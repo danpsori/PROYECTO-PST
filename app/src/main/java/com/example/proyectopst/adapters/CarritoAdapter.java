@@ -43,7 +43,7 @@ public class CarritoAdapter  extends RecyclerView.Adapter<CarritoAdapter.ViewHol
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            imageView = itemView.findViewById(R.id.);
+            //imageView = itemView.findViewById(R.id .);
         }
     }
 }
